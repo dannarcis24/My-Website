@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="top-bar">
-        <div class="logo"><img src="Icons/logo.jpg" alt="Logo"></div>
+        <a href="index.html"> <div class="logo"><img src="Icons/logo.jpg" alt="Logo"></div> </a>
         <input type="checkbox" id="menu-toggle" class="menu-toggle">
         <label for="menu-toggle" class="hamburger-menu">
             <span></span>
@@ -34,16 +34,16 @@
 
             <form action="mailto:dannarcis.costinel@gmail.com" method="POST" enctype="text/plain">
                 <label for="nume"> Name:</label><br>
-                <input type="text" id="nume" name="nume" required><br><br>
+                <textarea id="nume" name="nume" rows="1" cols="4" style="width: 40%;" required></textarea><br><br>
                 
                 <label for="email"> Email:</label><br>
-                <input type="email" id="email" name="email" required><br><br>
+                <textarea id="email" name="email" rows="1" cols="4" style="width: 40%;" required></textarea><br><br>
                 
                 <label for="subject"> Subject:</label><br>
-                <input type="text" id="subject" name="subject" required><br><br>
+                <textarea id="subject" name="subject" rows="1" cols="4" style="width: 40%;" required></textarea><br><br>
                 
                 <label for="mesaj"> Text:</label><br>
-                <textarea id="mesaj" name="mesaj" rows="4" cols="50" required></textarea><br><br>
+                <textarea id="mesaj" name="mesaj" rows="4" cols="40" style="width: 90%;" required></textarea><br><br>
                 
                 <input type="submit" value="Send" class="buton">
             </form>
