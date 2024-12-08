@@ -124,6 +124,7 @@ nav ul li a:hover {
     background-color: #1e1e1e; 
     color: whitesmoke; 
     text-align: center;
+    font-size: 1.5rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
 }
 
@@ -140,6 +141,7 @@ nav ul li a:hover {
 .text {
     font-family: 'Consolas';
     text-align: left;
+    font-size: 1.3rem;
 }
 
 /* Stilizarea pentru footer*/
@@ -241,6 +243,10 @@ footer {
 
     .left-container img {
         width: 50%;
+    }
+
+    .box {
+        font-size: 1.3rem;
     }
 
     .text {
