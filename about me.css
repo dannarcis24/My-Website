@@ -33,6 +33,11 @@ body {
 
 .logo img {
     max-height: 50px;
+    transition: transform 0.3s ease;
+}
+
+.logo img:hover {
+    transform: scale(1.2);
 }
 
 /* Navigație */
@@ -97,6 +102,7 @@ nav ul li a:hover {
     background-color: #1e1e1e; 
     color: whitesmoke; 
     text-align: center;
+    font-size: 1.5rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
 }
 
@@ -164,6 +170,10 @@ footer {
 
     .hamburger-menu {
         display: flex;
+    }
+
+    .text {
+        font-size: 0.75rem;
     }
 
     footer {
