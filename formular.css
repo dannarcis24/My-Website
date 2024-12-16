@@ -33,6 +33,11 @@ body {
 
 .logo img {
     max-height: 50px;
+    transition: transform 0.3s ease;
+}
+
+.logo img:hover {
+    transform: scale(1.2);
 }
 
 /* Navigație */
@@ -96,6 +101,7 @@ nav ul li a:hover {
     margin: 15px 0; 
     background-color: #1e1e1e; 
     color: whitesmoke; 
+    font-size: 1.3rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
 }
 
@@ -179,6 +185,10 @@ footer {
 @media (max-width: 768px) {
     .contact {
         font-size: 0.75rem;
+    }
+
+    .box {
+        font-size: 1rem;
     }
     
     .social-media a img {
