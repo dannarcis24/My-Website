@@ -3,7 +3,7 @@ const dict = {
       "home": "Acasă",
       "about-me": "Despre mine",
       "projects": "Proiecte",
-      "title": "&lt;/ Proiectele mele în Automatică și Programare %gt",
+      "title": "&lt;/ Proiectele mele în Automatică și Programare &gt",
       "github": "Pentru informații suplimentare accesați contul meu de GitHub",
       "d1": "DETALII", "d2": "DETALII", "d3": "DETALII", "d4": "DETALII", "d5": "DETALII", "d6": "DETALII", "d7": "DETALII", "d8": "DETALII", "d9": "DETALII", "d10": "DETALII", "d11": "DETALII", "d12": "DETALII",
       "l1": "Limbaje:", "l2": "Limbaje:", "l3": "Limbaje:", "l4": "Limbaje:", "l5": "Limbaje:", "l6": "Limbaje:", "l7": "Limbaje:", "l8": "Limbaje:", "l9": "Limbaje:", "l10": "Limbaje:", "l11": "Limbaje:", "l12": "Limbaje:",
