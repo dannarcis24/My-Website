@@ -9,37 +9,20 @@
     <link rel="stylesheet" href="formular.css">
 </head>
 <body>
-    <div class="top-bar">
-        <a href="index.html"> <div class="logo"><img src="Icons/logo.jpg" alt="Logo"></div> </a>
-        <input type="checkbox" id="menu-toggle" class="menu-toggle">
-        <label for="menu-toggle" class="hamburger-menu">
-            <span></span>
-            <span></span>
-            <span></span>
-        </label>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about me.html">About Me</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="Projects/my_CV.pdf" target="_blank">CV</a></li>
-                <li><a href="formular.html">Contact</a></li>
-            </ul>
-        </nav>
-    </div>
+    <div id="header"></div>
 
     <div class="content">
         <div class="box">
-            <h1> Contact Form:</h1>
+            <h1 id="form"> Contact Form:</h1>
 
             <form action="mailto:dannarcis.costinel@gmail.com" method="POST" enctype="text/plain">
-                <label for="nume"> Name:</label><br>
+                <label for="nume" id="name"> Name:</label><br>
                 <textarea id="nume" name="nume" rows="1" cols="4" style="width: 40%;" required></textarea><br><br>
                 
                 <label for="email"> Email:</label><br>
                 <textarea id="email" name="email" rows="1" cols="4" style="width: 40%;" required></textarea><br><br>
                 
-                <label for="subject"> Subject:</label><br>
+                <label for="subject" id="subject"> Subject:</label><br>
                 <textarea id="subject" name="subject" rows="1" cols="4" style="width: 40%;" required></textarea><br><br>
                 
                 <label for="mesaj"> Text:</label><br>
@@ -50,20 +33,34 @@
         </div>
     </div>
 
-    <footer>
-        <p>&copy; 2024Copyright | Dan Narcis Costinel</p>
-        <p> 
-            Contact me:
-            <a href="mailto:dannarcis.costinel@gmail.com" target="_blank" class="contact"> Gmail</a> |
-            <a href="mailto:dan_narcis_costinel@yahoo.com" target="_blank" class="contact"> Yahoo</a>
-        </p>
-        <div class="social-media">
-            <a href="https://www.instagram.com/dannarcis_24/" target="_blank"> <img src="Icons/instagram.png" alt=""> </a>
-            <a href="https://www.facebook.com/profile.php?id=100007628927868" target="_blank"> <img src="Icons/facebook.png" alt=""> </a>
-            <a href="https://github.com/dannarcis24" target="_blank"> <img src="Icons/github.png" alt=""> </a>
-            <a href="https://www.linkedin.com/in/narcis-dan-39800030b/" target="_blank"> <img src="Icons/linkedin.png" alt=""> </a>
-            <a href="https://www.snapchat.com/add/dannarcis_24" target="_blank"> <img src="Icons/snapchat.png" alt=""> </a>
-        </div>
-    </footer>
+    <div id="footer"></div>
+
+    <script>
+        function loadScript(src) {
+            return new Promise((resolve, reject) => {
+                const script = document.createElement("script");
+                script.src = src;
+                script.onload = resolve;
+                script.onerror = reject;
+                document.body.appendChild(script);
+            });
+        }
+
+        fetch('header.html')
+            .then(res => res.text())
+            .then(data => {
+                document.getElementById("header").innerHTML = data;
+                return Promise.all([
+                    loadScript("Translations/formular.js"),
+                    loadScript("Translations/language.js")
+                ]);
+            });
+
+        fetch('footer.html')
+            .then(res => res.text())
+            .then(data => {
+                document.getElementById('footer').innerHTML = data;
+            });
+    </script>
 </body>
 </html>
