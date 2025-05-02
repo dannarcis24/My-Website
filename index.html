@@ -9,42 +9,25 @@
     <link rel="stylesheet" href="home.css">
 </head>
 <body>
-    <div class="top-bar">
-        <a href="index.html"> <div class="logo"><img src="Icons/logo.jpg" alt="Logo"></div> </a>
-        <input type="checkbox" id="menu-toggle" class="menu-toggle">
-        <label for="menu-toggle" class="hamburger-menu">
-            <span></span>
-            <span></span>
-            <span></span>
-        </label>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about me.html">About Me</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="Projects/my_CV.pdf" target="_blank">CV</a></li>
-                <li><a href="formular.html">Contact</a></li>
-            </ul>
-        </nav>
-    </div>
+    <div id="header"></div>
 
     <section class="initialPic">
         <h1> 
-            <br><br><br> Welcome to my website! <br>
-            <a href="about me.html" class="buton"> ABOUT ME</a>
+            <br><br><br> <span id="welcome"> Welcome to my website! </span> <br>
+            <a href="about me.html" class="buton" id="about-me-butt"> ABOUT ME</a>
         </h1>
     </section>
 
     <div class="content">
         <div class="box">
-            <h1> &lt;/ Education &gt;</h1> <hr><br><br>
+            <h1> &lt;/ <span id="title-education"> Education </span> &gt;</h1> <hr><br><br>
 
             <div class="container">
                 <div class="left-container"> <img src="Pictures/acs.jpg" alt=""></div>
 
                 <div class="text">
-                    <li> <b> Faculty of Automatic Control and Computer science <br> (Oct. 2023 - present)</b> </li> <br>
-                    <p> I chose this faculty, recognized as one of the most prestigious in the country, 
+                    <li> <b id="title-faculty"> Faculty of Automatic Control and Computer science <br> (Oct. 2023 - present)</b> </li> <br>
+                    <p id="description-faculty"> I chose this faculty, recognized as one of the most prestigious in the country, 
                         to deepen my knowledge in applied computer science and systems engineering. 
                         Although the admission process and the baccalaureate exam were significant challenges, 
                         the effort invested was fully justified by the results achieved.</p>
@@ -55,8 +38,8 @@
                 <div class="left-container"> <img src="Pictures/cndg.jpg" alt=""></div>
 
                 <div class="text">
-                    <li> <b> National College Dinicu Golescu <br> (Sept. 2019 - June 2023)</b> </li> <br>
-                    <p> Being a student at this high school was one of my goals, as it is a prestigious institution. 
+                    <li> <b id="title-highschool"> National College Dinicu Golescu <br> (Sept. 2019 - June 2023)</b> </li> <br>
+                    <p id="description-highschool"> Being a student at this high school was one of my goals, as it is a prestigious institution. 
                         This made it a true challenge to achieve a high enough grade to be admitted. 
                         However, the experience I gained here confirmed that determination and consistent effort 
                         are essential for achieving one's goals.</p>
@@ -65,15 +48,20 @@
         </div> <br><br><br>
 
         <div class="box">
-            <h1> &lt;/ Commpetences &gt;</h1> <hr><br><br>
+            <h1> &lt;/ <span id="title-competences"> Commpetences </span> &gt;</h1> <hr><br><br>
 
             <div class="text">
-                <li> <i> Certificates:</i> MATLAB Onramp, CERTIPORT</li> <br>
-                <li> <i> Programming Languages:</i> C/C++, MATLAB, HTML, CSS, javascript, MySQL, LaTeX</li>
+                <li> <i id="certificates"> Certificates:</i> MATLAB Onramp, 
+                    MATLAB Coding Practices for Efficiency and Performance, 
+                    Solving Nonlinear Equations with MATLAB, 
+                    Introduction to Linear Algebra with MATLAB, 
+                    CERTIPORT Certificate, 
+                    Digital Skills</li> <br>
+                <li> <i id="programming-languages"> Programming Languages:</i> C/C++/C#, MATLAB, HTML, CSS, javascript, MySQL, LaTeX, Unity, JAVA</li>
                 <li> <i> Microsoft Office:</i> Word, Excel, PowerPoint</li>
-                <li> <i> Applied Mathematics:</i> Numerical Analysis and Optimization Algorithms for solving complex problems</li> <br>
-                <li> Proven ability to collaborate effectively within diverse teams</li>
-                <li> Proven ability to maintain high performance and meet deadlines in high-pressure environments</li>
+                <li> <i id="applied-math"> Applied Mathematics:</i> <p id="description-applied-math"> Numerical Analysis and Optimization Algorithms for solving complex problems</p> </li> <br>
+                <li id="description-team"> Proven ability to collaborate effectively within diverse teams</li>
+                <li id="description-deadline"> Proven ability to maintain high performance and meet deadlines in high-pressure environments</li>
             </div>
         </div> <br><br><br>
 
@@ -81,24 +69,24 @@
             <h1> &lt;/ Hobby &gt;</h1> <hr><br><br>
 
             <div class="text">
-                <li> <b> Passion for movies and books</b></li>
-                <p> I am passionate about movies and series, especially those in the science fiction and psychological
+                <li> <b id="title-movies-books"> Passion for movies && books</b></li>
+                <p id="description-movies-books"> I am passionate about movies and series, especially those in the science fiction and psychological
                     genres. Recently, I discovered a newfound love for reading, sparked by a series based on a book 
                     collection (Shadowhunters). The impact of this show was so profound that it ignited my curiosity to delve deeper 
                     into the story through books (The Mortal Instruments). This experience has helped me appreciate the complexity and richness that literature offers.</p> <br>
                 
-                <li> <b> Exploring nature and socializing</b> </li>
-                <p> I enjoy traveling and discovering new places, whether it's breathtaking natural landscapes or 
+                <li> <b id="title-explore"> Passion for exploration && socialization</b> </li>
+                <p id="description-explore"> I enjoy traveling and discovering new places, whether it's breathtaking natural landscapes or 
                     remarkable cultural landmarks. Nature inspires me, and spending time admiring scenic views or 
-                    walking through parks is a source of peace and energy for me. </p>
-                <p> Additionally, I value quality time with friends, whether it involves going out or simply enjoying each other's company.</p>  <br>
+                    walking through parks is a source of peace and energy for me. <br>
+                    Additionally, I value quality time with friends, whether it involves going out or simply enjoying each other's company.</p>  <br>
 
-                <li> <b> Programming for creativity</b></li> 
-                <p> For me, programming is more than just a technical skill — it's a way to express my creativity and 
+                <li> <b id="title-programming"> Passion for programming && creativity</b></li> 
+                <p id="description-programming"> For me, programming is more than just a technical skill — it's a way to express my creativity and 
                     develop algorithmic thinking. I enjoy engaging in projects where I can leave my personal mark and 
                     contribute to innovative solutions. The continuous learning process in this field keeps me motivated 
-                    to experiment and discover new things constantly.</p>
-                <p> I have programmed the most in C/C++, a language that attracted me due to its ability to directly manipulate
+                    to experiment and discover new things constantly. <br>
+                    I have programmed the most in C/C++, a language that attracted me due to its ability to directly manipulate
                     memory and create robust, efficient programs. Even though it is considered a challenging language, this complexity 
                     has helped me develop a heightened attention to detail when writing code, allowing me to address potential errors early 
                     in the development process. My experience with C/C++ has strengthened my understanding of programming fundamentals and 
@@ -107,20 +95,34 @@
         </div>
     </div>
 
-    <footer>
-        <p>&copy; 2024Copyright | Dan Narcis Costinel</p>
-        <p> 
-            Contact me: 
-            <a href="mailto:dannarcis.costinel@gmail.com" target="_blank" class="contact"> Gmail</a> |
-            <a href="mailto:dan_narcis_costinel@yahoo.com" target="_blank" class="contact"> Yahoo</a>
-        </p>
-        <div class="social-media">
-            <a href="https://www.instagram.com/dannarcis_24/" target="_blank"> <img src="Icons/instagram.png" alt=""> </a>
-            <a href="https://www.facebook.com/profile.php?id=100007628927868" target="_blank"> <img src="Icons/facebook.png" alt=""> </a>
-            <a href="https://github.com/dannarcis24" target="_blank"> <img src="Icons/github.png" alt=""> </a>
-            <a href="https://www.linkedin.com/in/narcis-dan-39800030b/" target="_blank"> <img src="Icons/linkedin.png" alt=""> </a>
-            <a href="https://www.snapchat.com/add/dannarcis_24" target="_blank"> <img src="Icons/snapchat.png" alt=""> </a>
-        </div>
-    </footer>
+    <div id="footer"></div>
+
+    <script>
+        function loadScript(src) {
+            return new Promise((resolve, reject) => {
+                const script = document.createElement("script");
+                script.src = src;
+                script.onload = resolve;
+                script.onerror = reject;
+                document.body.appendChild(script);
+            });
+        }
+
+        fetch('header.html')
+            .then(res => res.text())
+            .then(data => {
+                document.getElementById("header").innerHTML = data;
+                return Promise.all([
+                    loadScript("Translations/home.js"),
+                    loadScript("Translations/language.js")
+                ]);
+            });
+
+        fetch('footer.html')
+            .then(res => res.text())
+            .then(data => {
+                document.getElementById('footer').innerHTML = data;
+            });
+    </script>
 </body>
 </html>
