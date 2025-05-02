@@ -15,6 +15,73 @@ body {
     font-size: 1rem;
 }
 
+.lang-dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+}
+
+.lang-dropdown img.flag-img {
+    width: 24px;
+    height: 16px;
+    vertical-align: middle;
+    border-radius: 3px;
+}
+
+.lang-dropdown .arrow {
+    background: none;
+    border: none;
+    font-size: 14px;
+    padding-left: 5px;
+    cursor: pointer;
+    vertical-align: middle;
+    color: whitesmoke;
+}
+
+.lang-menu {
+    position: absolute;
+    top: 100%;
+    right: 0; /* Meniul va apărea în partea dreaptă */
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px 0;
+    margin-top: 8px;
+    width: 130px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    z-index: 1000;
+    max-width: 90vw; /* Evită să depășească ecranul */
+    box-sizing: border-box;
+}
+
+.lang-dropdown:hover .lang-menu {
+    display: block;
+}
+
+.lang-menu li {
+    list-style: none;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.2s ease;
+}
+
+.lang-menu li:hover {
+    background-color: #f0f0f0;
+}
+
+.lang-menu .flag-img {
+    margin-right: 10px;
+}
+
+.lang-name {
+    font-size: 14px;
+    color: #333;
+}
+
 /* Stilizarea barei de navigație */
 .top-bar {
     position: fixed;
@@ -54,7 +121,7 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.2rem;
     transition: color 0.3s;
     font-weight: 500;
 }
@@ -171,6 +238,21 @@ footer {
 }
 
 @media (max-width: 480px) {
+    footer {
+        font-size: 0.5rem;
+    }
+
+    .contact {
+        font-size: 0.5rem;
+    }
+
+    .social-media a img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
     nav ul {
         flex-direction: column;
         gap: 10px;
@@ -191,22 +273,7 @@ footer {
     .hamburger-menu {
         display: flex;
     }
-
-    footer {
-        font-size: 0.5rem;
-    }
-
-    .contact {
-        font-size: 0.5rem;
-    }
-
-    .social-media a img {
-        width: 1.5rem;
-        height: 1.5rem;
-    }
-}
-
-@media (max-width: 768px) {
+    
     .box {
         grid-template-columns: 1fr;
     }
