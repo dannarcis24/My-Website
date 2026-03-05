@@ -9,10 +9,10 @@ const dict = {
         "title-education": "Educație",
 
         "title-faculty": "Facultatea de Automatică și Calculatoare (Oct. 2023 - prezent)",
-        "description-faculty": "În prezent sunt student la Facultatea de Automatică și Calculatoare din cadrul Universității Naționale de Știință și Tehnologie București, specializarea Ingineria Sistemelor. Studiile mele se concentrează pe algoritmi, optimizare, sisteme de control și dezvoltare software, domenii care îmbină matematica aplicată cu programarea.",
+        "description-faculty": "Sunt student în anul 3 la Facultatea de Automatică și Calculatoare din cadrul Universității Naționale de Știință și Tehnologie București, specializarea Ingineria Sistemelor. Studiez algoritmi, optimizare, sisteme de control și dezvoltare software, combinând matematica aplicată cu programarea pentru a rezolva probleme complexe.",
 
         "title-highschool": "Colegiul Național Dinicu Golescu (Sept. 2019 - Iunie 2023)",
-        "description-highscool": "Am absolvit profilul Matematică-Informatică, unde am descoperit pasiunea pentru algoritmi, programare și rezolvarea problemelor complexe. Această perioadă mi-a dezvoltat gândirea analitică și dorința de a continua studiile într-un domeniu tehnic.",
+        "description-highscool": "Am absolvit profilul Matematică-Informatică, unde am descoperit pasiunea pentru programare, algoritmi și gândirea analitică. Această experiență mi-a conturat drumul către domeniul tehnic și m-a motivat să continui studiile în ingineria sistemelor.",
 
         "title-competences": "Competențe",
         "certificates": "Certificări",
@@ -20,20 +20,20 @@ const dict = {
         "instruments": "Instrumente",
 
         "applied-math": "Matematică aplicată",
-        "description-applied-math": "Analiză numerică, metode de optimizare și modelare matematică utilizate pentru rezolvarea problemelor inginerești.",
+        "description-applied-math": "Analiză numerică, optimizare și modelare matematică pentru rezolvarea problemelor inginerești.",
 
-        "description-team": "Capacitate demonstrată de a lucra eficient în echipă și de a colabora în proiecte tehnice.",
+        "description-team": "Capacitate de a lucra eficient în echipă și de a colabora în proiecte tehnice.",
 
-        "description-deadline": "Abilitatea de a lucra organizat și de a respecta termenele limită în proiecte complexe.",
+        "description-deadline": "Organizare și respectarea termenelor limită în proiecte complexe.",
 
-        "title-movies-books": "Pasiune pentru filme și cărți",
-        "description-movies-books": "Îmi plac filmele și serialele din zona science-fiction și psihologică, deoarece explorează idei complexe despre tehnologie, societate și natură umană. În ultimul timp am descoperit și pasiunea pentru lectură, în special pentru serii fantasy și science-fiction.",
+        "title-movies-books": "Pasiuni și explorare",
+        "description-movies-books": "Îmi plac filmele și serialele science-fiction și psihologice, care explorează idei despre tehnologie și societate. În plus, citesc frecvent fantasy și science-fiction, pentru inspirație și relaxare.",
 
-        "title-explore": "Explorare și socializare",
-        "description-explore": "Îmi place să călătoresc și să descopăr locuri noi. Natura și peisajele spectaculoase reprezintă o sursă de inspirație și relaxare pentru mine. De asemenea, apreciez timpul petrecut cu prietenii și experiențele care îmi permit să cunosc oameni și perspective noi.",
+        "title-explore": "Călătorii și socializare",
+        "description-explore": "Îmi place să călătoresc și să descopăr locuri noi, natură sau orașe. Timpul petrecut cu prietenii și experiențele sociale mă inspiră și îmi oferă perspective noi.",
 
         "title-programming": "Programare și creativitate",
-        "description-programming": "Programarea este pentru mine atât o abilitate tehnică, cât și un mod de a rezolva probleme complexe. Am lucrat în principal cu C/C++, unde am dobândit o înțelegere solidă a gestionării memoriei și a performanței programelor. De asemenea, am experiență în proiecte cu Python, MATLAB, Unity și dezvoltare web. Îmi place să construiesc proiecte care combină algoritmi, logică și creativitate."
+        "description-programming": "Programarea este atât o abilitate tehnică, cât și o modalitate de a rezolva probleme complexe. Am experiență cu C/C++, Python, MATLAB, Unity și dezvoltare web, combinând algoritmi, logică și creativitate în proiectele mele."
     },
 
     en: {
@@ -46,10 +46,10 @@ const dict = {
         "title-education": "Education",
 
         "title-faculty": "Faculty of Automatic Control and Computer Science (Oct. 2023 - present)",
-        "description-faculty": "I am currently a student at the Faculty of Automatic Control and Computer Science, part of the National University of Science and Technology Bucharest, specializing in Systems Engineering. My studies focus on algorithms, optimization, control systems and software development.",
+        "description-faculty": "I am a third-year student at the Faculty of Automatic Control and Computer Science, part of the National University of Science and Technology Bucharest, specializing in Systems Engineering. I study algorithms, optimization, control systems, and software development, combining applied mathematics with programming to solve complex problems.",
 
         "title-highschool": "National College Dinicu Golescu (Sept. 2019 - June 2023)",
-        "description-highscool": "I graduated from the Mathematics-Informatics track, where I developed my interest in programming, algorithms and complex problem solving. This experience strengthened my analytical thinking and motivated me to pursue a career in the technical field.",
+        "description-highscool": "I graduated from the Mathematics-Informatics track, where I discovered my passion for programming, algorithms, and analytical thinking. This experience guided me toward technical studies in systems engineering.",
 
         "title-competences": "Competences",
         "certificates": "Certifications",
@@ -57,19 +57,19 @@ const dict = {
         "instruments": "Instruments",
 
         "applied-math": "Applied Mathematics",
-        "description-applied-math": "Numerical analysis, optimization methods and mathematical modeling used for solving engineering problems.",
+        "description-applied-math": "Numerical analysis, optimization methods, and mathematical modeling for solving engineering problems.",
 
-        "description-team": "Proven ability to collaborate efficiently within technical teams.",
+        "description-team": "Ability to work efficiently in technical teams.",
 
-        "description-deadline": "Ability to maintain high performance and meet deadlines in demanding environments.",
+        "description-deadline": "Organized and capable of meeting deadlines in complex projects.",
 
-        "title-movies-books": "Passion for movies and books",
-        "description-movies-books": "I enjoy movies and series, especially science fiction and psychological genres that explore complex ideas about technology and human nature. Recently I have also developed a strong interest in reading, particularly fantasy and science fiction series.",
+        "title-movies-books": "Passions and exploration",
+        "description-movies-books": "I enjoy science-fiction and psychological movies and series that explore ideas about technology and society. I also enjoy reading fantasy and science-fiction books for inspiration and relaxation.",
 
-        "title-explore": "Exploration and social life",
-        "description-explore": "I enjoy traveling and discovering new places, whether natural landscapes or cultural locations. Nature is a source of inspiration and relaxation for me. I also value spending time with friends and meeting new people.",
+        "title-explore": "Travel and social life",
+        "description-explore": "I enjoy traveling and discovering new places, whether natural landscapes or cities. Time with friends and social experiences inspire me and broaden my perspective.",
 
         "title-programming": "Programming and creativity",
-        "description-programming": "Programming is both a technical skill and a way for me to solve complex problems. I have mainly worked with C/C++, where I developed a strong understanding of memory management and efficient software design. I also have experience with Python, MATLAB, Unity and web development projects."
+        "description-programming": "Programming is both a technical skill and a way to solve complex problems. I have experience with C/C++, Python, MATLAB, Unity, and web development, combining algorithms, logic, and creativity in my projects."
     }
 };
